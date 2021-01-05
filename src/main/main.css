@@ -1,0 +1,17 @@
+.App-main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	/* margin-top: 30px !important; */
+	height: calc(100vh - 60px);
+}
+pre {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+pre code {
+	overflow: hidden;
+	word-wrap: break-word;
+}
